@@ -1,0 +1,337 @@
+*,
+:before,
+:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.tengah {
+    position: relative;
+    margin: 5% auto;
+    background-image: url('bg.webp');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat;
+    border-radius: 14px;
+    padding: 70px 10px 10px 10px;
+    text-align: center;
+    height: 470px;
+    width: 330px;
+    align-items: center;
+    align-content: center;
+    color: #c87941;
+}
+
+.tengah2 {
+    position: relative;
+    margin: 5% auto;
+    background-image: url('bg.webp');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat;
+    border-radius: 14px;
+    padding: 40px 12px 20px 12px;
+    text-align: center;
+    height: 470px;
+    width: 330px;
+    align-items: center;
+    align-content: center;
+    color: #c87941;
+}
+
+.tengah2 span {
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.uwu {
+    width: 70%;
+    height: auto;
+}
+
+.uwu2 {
+    margin-top: 26px;
+    width: 70%;
+    height: auto;
+}
+
+.inputnama {
+    width: 80%;
+    padding: 8px;
+    border: 2px solid #c87941;
+    background: #f9f9f9;
+    color: #c87941;
+    border-radius: 8px;
+    outline: none !important;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.inputnama::placeholder {
+    color: #c87941;
+}
+
+.tombol {
+    margin-top: 10px;
+    width: 80%;
+    padding: 8px;
+    border: 2px solid #c87941;
+    background: #f9f9f9;
+    color: #c87941;
+    border-radius: 8px;
+    outline: none !important;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.tombol:hover {
+    cursor: pointer;
+    border: 2px solid #c87941;
+    background: #c87941;
+    color: #f9f9f9;
+}
+
+.tombol2 {
+    margin-top: 10px;
+    width: 80%;
+    padding: 8px;
+    border: 2px solid #ea97ad;
+    background: #f9f9f9;
+    color: #ea97ad;
+    border-radius: 8px;
+    outline: none !important;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.tombol2:hover {
+    cursor: pointer;
+    border: 2px solid #ea97ad;
+    background: #ea97ad;
+    color: #f9f9f9;
+}
+
+.kembali {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    font-size: 24px;
+    top: 10px;
+    text-align: left;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    font-size: 30px;
+    bottom: 10px;
+    text-align: center;
+}
+
+.footer .kiri {
+    margin-left: 10px;
+}
+
+.halaman {
+    background: #6d326d;
+    font-family: OpenSans-Regular, sans-serif;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto auto;
+    overflow: hidden;
+}
+
+.halaman .dalemnya_halaman {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.halaman h1 {
+    font-weight: 300;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.halaman .btn_nav {
+    background: #002a32;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 17px 30px;
+    width: 146px;
+}
+
+.halaman .btn_nav:focus,
+.halaman .btn_nav:active {
+    outline: none;
+}
+
+.halaman a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.halaman a:hover {
+    text-decoration: underline;
+}
+
+.animate_content {
+    animation: animate 3s ease;
+}
+
+.fadeIn {
+    z-index: 10;
+}
+
+.home {
+    background: #c87941;
+}
+
+.halaman2 {
+    background: #ea97ad;
+}
+
+@media only screen and (max-width: 767px) {
+    .dalemnya_halaman h1 {
+        margin-top: 100px;
+    }
+}
+
+@-moz-keyframes animate {
+    10% {
+        transform: scale(1, 0.002);
+    }
+    35% {
+        transform: scale(0.2, 0.002);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.2, 0.002);
+        opacity: 0;
+    }
+    85% {
+        transform: scale(1, 0.002);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@-webkit-keyframes animate {
+    10% {
+        transform: scale(1, 0.002);
+    }
+    35% {
+        transform: scale(0.2, 0.002);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.2, 0.002);
+        opacity: 0;
+    }
+    85% {
+        transform: scale(1, 0.002);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@-o-keyframes animate {
+    10% {
+        transform: scale(1, 0.002);
+    }
+    35% {
+        transform: scale(0.2, 0.002);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.2, 0.002);
+        opacity: 0;
+    }
+    85% {
+        transform: scale(1, 0.002);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes animate {
+    10% {
+        transform: scale(1, 0.002);
+    }
+    35% {
+        transform: scale(0.2, 0.002);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.2, 0.002);
+        opacity: 0;
+    }
+    85% {
+        transform: scale(1, 0.002);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@media (min-width: 300px) and (max-width: 749px) {
+    .tengah {
+        position: relative;
+        margin: 25% auto;
+        background-image: url('bg.webp');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: repeat;
+        border-radius: 14px;
+        padding: 50px 10px 10px 10px;
+        text-align: center;
+        height: 470px;
+        width: 330px;
+        align-items: center;
+        align-content: center;
+        color: #c87941;
+    }
+    .tengah2 {
+        position: relative;
+        margin: 25% auto;
+        background-image: url('bg.webp');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: repeat;
+        border-radius: 14px;
+        padding: 35px 10px 10px 10px;
+        text-align: center;
+        height: 470px;
+        width: 330px;
+        align-items: center;
+        align-content: center;
+        color: #ea97ad;
+    }
+}
