@@ -12,7 +12,7 @@
 
 .tengah {
     position: relative;
-    margin: 5% auto;
+    margin: 10% auto;
     background-image: url('bg.webp');
     background-position: center;
     background-size: 100%;
@@ -29,7 +29,7 @@
 
 .tengah2 {
     position: relative;
-    margin: 5% auto;
+    margin: 10% auto;
     background-image: url('bg.webp');
     background-position: center;
     background-size: 100%;
