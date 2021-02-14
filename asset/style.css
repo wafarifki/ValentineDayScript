@@ -301,7 +301,7 @@
     }
 }
 
-@media (min-width: 300px) and (max-width: 749px) {
+@media (min-width: 300px) and (max-width: 649px) {
     .tengah {
         position: relative;
         margin: 25% auto;
@@ -322,6 +322,42 @@
     .tengah2 {
         position: relative;
         margin: 25% auto;
+        background-image: url('bg.webp');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: repeat;
+        border-radius: 14px;
+        padding: 35px 10px 10px 10px;
+        text-align: center;
+        height: 470px;
+        width: 330px;
+        align-items: center;
+        align-content: center;
+        color: #ea97ad;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 749px) {
+    .tengah {
+        position: relative;
+        margin: 15% auto;
+        background-image: url('bg.webp');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: repeat;
+        border-radius: 14px;
+        padding: 50px 10px 10px 10px;
+        text-align: center;
+        height: 470px;
+        width: 330px;
+        align-items: center;
+        align-content: center;
+        color: #c87941;
+    }
+    
+    .tengah2 {
+        position: relative;
+        margin: 15% auto;
         background-image: url('bg.webp');
         background-position: center;
         background-size: 100%;
