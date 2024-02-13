@@ -11,7 +11,6 @@ $('.tombol').click(function() {
     setTimeout(function() {
         $('.halaman').removeClass('fadeIn');
     }, 1100);
-
 });
 
 
@@ -46,7 +45,8 @@ $('.kehalaman2').click(function() {
         $('.halaman2').addClass('fadeIn');
     }, 1100);
 
-    JalaninTeks();
+    // Delay 4 detik sebelum memulai fungsi JalaninTeks()
+    setTimeout(JalaninTeks, 4000);
     PuterLagu();
     Ambilnama();
 });
@@ -67,9 +67,4 @@ function JalaninTeks() {
 function PuterLagu() {
     var lagu = document.getElementById("lagu");
     return lagu.paused ? lagu.play() : lagu.pause();
-};
-
-function Ambilnama() {
-    var x = document.getElementById("nama").value;
-    document.getElementById("tampilnama").innerHTML = x;
 };
