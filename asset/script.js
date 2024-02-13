@@ -50,12 +50,6 @@ $('.kehalaman2').click(function() {
     PuterLagu();
 });
 
-var url = window.location.href
-var res = url.split("/");
-var pos = res.indexOf('ValentineDayScript');
-var result = res[pos+1];
-document.getElementById("namacewenya").innerHTML = result;
-
 var i = 0;
 var txt = "Ribuan malam ku termenung sendiri, Menunggu seseorang untuk memelukku, Lewati ratusan mimpi tersimpan dalam sanubari, Sendiri di tengah kegelapan yang semu. Terimakasih engkau telah hadir untukku,\nmenemani kesepianku dan telah menjadi penerang dalam gelapku,  I Love You";
 var speed = 200;
