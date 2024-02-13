@@ -1,5 +1,5 @@
 # ValentineDayScript
-I have created a Simple Valentine's Day HTML Script, free and used for learning. There is a change in this script, Now you can add www.yourusername.github.io/ValentineDayScript/YourNameGirlFriendOrAnything to name the wish text name.
+I have created a Simple Valentine's Day HTML Script, free and used for learning.
 
 # Demo Site
 <a href="https://wafarifki.github.io/ValentineDayScript/Annisa">https://wafarifki.github.io/ValentineDayScript/Annisa</a>
